@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
+
 
 @interface AppDelegate ()
+
+@property (strong, nonatomic) MMDrawerController *drawerController ;
 
 @end
 
@@ -17,6 +22,68 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIViewController * leftSideDrawerViewController = [[ViewController alloc] init];
+    
+    UIViewController * centerViewController = [[ViewController alloc] init];
+    
+    UIViewController * rightSideDrawerViewController = [[ViewController alloc] init];
+    
+    leftSideDrawerViewController.title = @"左边";
+    centerViewController.title = @"中间";
+    rightSideDrawerViewController.title = @"右边";
+    leftSideDrawerViewController.view.backgroundColor = [UIColor redColor];
+    centerViewController.view.backgroundColor = [UIColor greenColor];
+    rightSideDrawerViewController.view.backgroundColor = [UIColor purpleColor];
+    
+    UINavigationController * navigationController = [[UINavigationController alloc] initWithRootViewController:centerViewController];
+    [navigationController setRestorationIdentifier:@"MMExampleCenterNavigationControllerRestorationKey"];
+    UINavigationController * rightSideNavController = [[UINavigationController alloc] initWithRootViewController:rightSideDrawerViewController];
+    [rightSideNavController setRestorationIdentifier:@"MMExampleRightNavigationControllerRestorationKey"];
+    UINavigationController * leftSideNavController = [[UINavigationController alloc] initWithRootViewController:leftSideDrawerViewController];
+    
+    [leftSideNavController setRestorationIdentifier:@"MMExampleLeftNavigationControllerRestorationKey"];
+    self.drawerController = [[MMDrawerController alloc]
+                             initWithCenterViewController:navigationController
+                             leftDrawerViewController:leftSideNavController
+                             rightDrawerViewController:rightSideNavController];
+    [self.drawerController setShowsShadow:NO];
+    [self.drawerController setRestorationIdentifier:@"MMDrawer"];
+    [self.drawerController setMaximumRightDrawerWidth:200.0];
+    [self.drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [self.drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
+    //设置属性测试
+    self.drawerController.maximumLeftDrawerWidth = 100.0;
+    self.drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
+    self.drawerController.centerHiddenInteractionMode = MMDrawerOpenCenterInteractionModeNavigationBarOnly;
+    self.drawerController.showsShadow = YES;
+    //    self.drawerController.showsStatusBarBackgroundView = YES;
+    self.drawerController.statusBarViewBackgroundColor = [UIColor redColor];
+    
+    
+    
+    
+//    [self.drawerController
+//     setDrawerVisualStateBlock:^(MMDrawerController *drawerController, MMDrawerSide drawerSide, CGFloat percentVisible) {
+//         MMDrawerControllerDrawerVisualStateBlock block;
+//         block = [[MMExampleDrawerVisualStateManager sharedManager]
+//                  drawerVisualStateBlockForDrawerSide:drawerSide];
+//         if(block){
+//             block(drawerController, drawerSide, percentVisible);
+//         }
+//     }];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    UIColor * tintColor = [UIColor colorWithRed:29.0/255.0
+                                          green:173.0/255.0
+                                           blue:234.0/255.0
+                                          alpha:1.0];
+    [self.window setTintColor:tintColor];
+    [self.window setRootViewController:self.drawerController];
+
+    
+    
     return YES;
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6386883F60FB329318B1A7A7 /* libPods-MMDrawerController_demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC314CD5D7311BAA0E02526 /* libPods-MMDrawerController_demo.a */; };
 		BA22B8F91C3AB05F00D69597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22B8F81C3AB05F00D69597 /* main.m */; };
 		BA22B8FC1C3AB05F00D69597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22B8FB1C3AB05F00D69597 /* AppDelegate.m */; };
 		BA22B8FF1C3AB05F00D69597 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22B8FE1C3AB05F00D69597 /* ViewController.m */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0556A7A36337EC9E38438143 /* Pods-MMDrawerController_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDrawerController_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMDrawerController_demo/Pods-MMDrawerController_demo.release.xcconfig"; sourceTree = "<group>"; };
+		2DC314CD5D7311BAA0E02526 /* libPods-MMDrawerController_demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMDrawerController_demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF7EED1FAA7ABB38020FCEF /* Pods-MMDrawerController_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDrawerController_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMDrawerController_demo/Pods-MMDrawerController_demo.debug.xcconfig"; sourceTree = "<group>"; };
 		BA22B8F41C3AB05F00D69597 /* MMDrawerController_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMDrawerController_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA22B8F81C3AB05F00D69597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA22B8FA1C3AB05F00D69597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,7 @@
 		BA22B9181C3AB05F00D69597 /* MMDrawerController_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMDrawerController_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA22B91C1C3AB05F00D69597 /* MMDrawerController_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController_demoUITests.m; sourceTree = "<group>"; };
 		BA22B91E1C3AB05F00D69597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA22B92A1C3AB2FA00D69597 /* MYPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6386883F60FB329318B1A7A7 /* libPods-MMDrawerController_demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		263A5DBFBEFAAAED06543989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DC314CD5D7311BAA0E02526 /* libPods-MMDrawerController_demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6172D7E440A941FB1EC44580 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EF7EED1FAA7ABB38020FCEF /* Pods-MMDrawerController_demo.debug.xcconfig */,
+				0556A7A36337EC9E38438143 /* Pods-MMDrawerController_demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BA22B8EB1C3AB05F00D69597 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +108,8 @@
 				BA22B9101C3AB05F00D69597 /* MMDrawerController_demoTests */,
 				BA22B91B1C3AB05F00D69597 /* MMDrawerController_demoUITests */,
 				BA22B8F51C3AB05F00D69597 /* Products */,
+				6172D7E440A941FB1EC44580 /* Pods */,
+				263A5DBFBEFAAAED06543989 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				BA22B8F81C3AB05F00D69597 /* main.m */,
+				BA22B92A1C3AB2FA00D69597 /* MYPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA22B9211C3AB05F00D69597 /* Build configuration list for PBXNativeTarget "MMDrawerController_demo" */;
 			buildPhases = (
+				8A0D78B484DF7EBE41160C5A /* Check Pods Manifest.lock */,
 				BA22B8F01C3AB05F00D69597 /* Sources */,
 				BA22B8F11C3AB05F00D69597 /* Frameworks */,
 				BA22B8F21C3AB05F00D69597 /* Resources */,
+				31C564F70C43AA1EB2E287E0 /* Embed Pods Frameworks */,
+				C444CAF518710EA4D798135D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +293,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31C564F70C43AA1EB2E287E0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMDrawerController_demo/Pods-MMDrawerController_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0D78B484DF7EBE41160C5A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C444CAF518710EA4D798135D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMDrawerController_demo/Pods-MMDrawerController_demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA22B8F01C3AB05F00D69597 /* Sources */ = {
@@ -409,8 +486,11 @@
 		};
 		BA22B9221C3AB05F00D69597 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF7EED1FAA7ABB38020FCEF /* Pods-MMDrawerController_demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MMDrawerController_demo/MYPrefixHeader.pch";
 				INFOPLIST_FILE = MMDrawerController_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shiwensong.MMDrawerController-demo";
@@ -420,8 +500,11 @@
 		};
 		BA22B9231C3AB05F00D69597 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0556A7A36337EC9E38438143 /* Pods-MMDrawerController_demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MMDrawerController_demo/MYPrefixHeader.pch";
 				INFOPLIST_FILE = MMDrawerController_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shiwensong.MMDrawerController-demo";
@@ -496,6 +579,7 @@
 				BA22B9231C3AB05F00D69597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA22B9241C3AB05F00D69597 /* Build configuration list for PBXNativeTarget "MMDrawerController_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +588,7 @@
 				BA22B9261C3AB05F00D69597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA22B9271C3AB05F00D69597 /* Build configuration list for PBXNativeTarget "MMDrawerController_demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +597,7 @@
 				BA22B9291C3AB05F00D69597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
