@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA22B8F91C3AB05F00D69597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22B8F81C3AB05F00D69597 /* main.m */; };
+		BA22B8FC1C3AB05F00D69597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22B8FB1C3AB05F00D69597 /* AppDelegate.m */; };
+		BA22B8FF1C3AB05F00D69597 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22B8FE1C3AB05F00D69597 /* ViewController.m */; };
+		BA22B9021C3AB05F00D69597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA22B9001C3AB05F00D69597 /* Main.storyboard */; };
+		BA22B9041C3AB05F00D69597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA22B9031C3AB05F00D69597 /* Assets.xcassets */; };
+		BA22B9071C3AB05F00D69597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA22B9051C3AB05F00D69597 /* LaunchScreen.storyboard */; };
+		BA22B9121C3AB05F00D69597 /* MMDrawerController_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22B9111C3AB05F00D69597 /* MMDrawerController_demoTests.m */; };
+		BA22B91D1C3AB05F00D69597 /* MMDrawerController_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22B91C1C3AB05F00D69597 /* MMDrawerController_demoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA22B90E1C3AB05F00D69597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA22B8EC1C3AB05F00D69597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA22B8F31C3AB05F00D69597;
+			remoteInfo = MMDrawerController_demo;
+		};
+		BA22B9191C3AB05F00D69597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA22B8EC1C3AB05F00D69597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA22B8F31C3AB05F00D69597;
+			remoteInfo = MMDrawerController_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA22B8F41C3AB05F00D69597 /* MMDrawerController_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMDrawerController_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA22B8F81C3AB05F00D69597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA22B8FA1C3AB05F00D69597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA22B8FB1C3AB05F00D69597 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA22B8FD1C3AB05F00D69597 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA22B8FE1C3AB05F00D69597 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA22B9011C3AB05F00D69597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA22B9031C3AB05F00D69597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA22B9061C3AB05F00D69597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA22B9081C3AB05F00D69597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA22B90D1C3AB05F00D69597 /* MMDrawerController_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMDrawerController_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA22B9111C3AB05F00D69597 /* MMDrawerController_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController_demoTests.m; sourceTree = "<group>"; };
+		BA22B9131C3AB05F00D69597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA22B9181C3AB05F00D69597 /* MMDrawerController_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMDrawerController_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA22B91C1C3AB05F00D69597 /* MMDrawerController_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController_demoUITests.m; sourceTree = "<group>"; };
+		BA22B91E1C3AB05F00D69597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA22B8F11C3AB05F00D69597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA22B90A1C3AB05F00D69597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA22B9151C3AB05F00D69597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA22B8EB1C3AB05F00D69597 = {
+			isa = PBXGroup;
+			children = (
+				BA22B8F61C3AB05F00D69597 /* MMDrawerController_demo */,
+				BA22B9101C3AB05F00D69597 /* MMDrawerController_demoTests */,
+				BA22B91B1C3AB05F00D69597 /* MMDrawerController_demoUITests */,
+				BA22B8F51C3AB05F00D69597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA22B8F51C3AB05F00D69597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B8F41C3AB05F00D69597 /* MMDrawerController_demo.app */,
+				BA22B90D1C3AB05F00D69597 /* MMDrawerController_demoTests.xctest */,
+				BA22B9181C3AB05F00D69597 /* MMDrawerController_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA22B8F61C3AB05F00D69597 /* MMDrawerController_demo */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B8FA1C3AB05F00D69597 /* AppDelegate.h */,
+				BA22B8FB1C3AB05F00D69597 /* AppDelegate.m */,
+				BA22B8FD1C3AB05F00D69597 /* ViewController.h */,
+				BA22B8FE1C3AB05F00D69597 /* ViewController.m */,
+				BA22B9001C3AB05F00D69597 /* Main.storyboard */,
+				BA22B9031C3AB05F00D69597 /* Assets.xcassets */,
+				BA22B9051C3AB05F00D69597 /* LaunchScreen.storyboard */,
+				BA22B9081C3AB05F00D69597 /* Info.plist */,
+				BA22B8F71C3AB05F00D69597 /* Supporting Files */,
+			);
+			path = MMDrawerController_demo;
+			sourceTree = "<group>";
+		};
+		BA22B8F71C3AB05F00D69597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B8F81C3AB05F00D69597 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA22B9101C3AB05F00D69597 /* MMDrawerController_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B9111C3AB05F00D69597 /* MMDrawerController_demoTests.m */,
+				BA22B9131C3AB05F00D69597 /* Info.plist */,
+			);
+			path = MMDrawerController_demoTests;
+			sourceTree = "<group>";
+		};
+		BA22B91B1C3AB05F00D69597 /* MMDrawerController_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B91C1C3AB05F00D69597 /* MMDrawerController_demoUITests.m */,
+				BA22B91E1C3AB05F00D69597 /* Info.plist */,
+			);
+			path = MMDrawerController_demoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA22B8F31C3AB05F00D69597 /* MMDrawerController_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA22B9211C3AB05F00D69597 /* Build configuration list for PBXNativeTarget "MMDrawerController_demo" */;
+			buildPhases = (
+				BA22B8F01C3AB05F00D69597 /* Sources */,
+				BA22B8F11C3AB05F00D69597 /* Frameworks */,
+				BA22B8F21C3AB05F00D69597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMDrawerController_demo;
+			productName = MMDrawerController_demo;
+			productReference = BA22B8F41C3AB05F00D69597 /* MMDrawerController_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA22B90C1C3AB05F00D69597 /* MMDrawerController_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA22B9241C3AB05F00D69597 /* Build configuration list for PBXNativeTarget "MMDrawerController_demoTests" */;
+			buildPhases = (
+				BA22B9091C3AB05F00D69597 /* Sources */,
+				BA22B90A1C3AB05F00D69597 /* Frameworks */,
+				BA22B90B1C3AB05F00D69597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA22B90F1C3AB05F00D69597 /* PBXTargetDependency */,
+			);
+			name = MMDrawerController_demoTests;
+			productName = MMDrawerController_demoTests;
+			productReference = BA22B90D1C3AB05F00D69597 /* MMDrawerController_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA22B9171C3AB05F00D69597 /* MMDrawerController_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA22B9271C3AB05F00D69597 /* Build configuration list for PBXNativeTarget "MMDrawerController_demoUITests" */;
+			buildPhases = (
+				BA22B9141C3AB05F00D69597 /* Sources */,
+				BA22B9151C3AB05F00D69597 /* Frameworks */,
+				BA22B9161C3AB05F00D69597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA22B91A1C3AB05F00D69597 /* PBXTargetDependency */,
+			);
+			name = MMDrawerController_demoUITests;
+			productName = MMDrawerController_demoUITests;
+			productReference = BA22B9181C3AB05F00D69597 /* MMDrawerController_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA22B8EC1C3AB05F00D69597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = shiwensong;
+				TargetAttributes = {
+					BA22B8F31C3AB05F00D69597 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BA22B90C1C3AB05F00D69597 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BA22B8F31C3AB05F00D69597;
+					};
+					BA22B9171C3AB05F00D69597 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BA22B8F31C3AB05F00D69597;
+					};
+				};
+			};
+			buildConfigurationList = BA22B8EF1C3AB05F00D69597 /* Build configuration list for PBXProject "MMDrawerController_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA22B8EB1C3AB05F00D69597;
+			productRefGroup = BA22B8F51C3AB05F00D69597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA22B8F31C3AB05F00D69597 /* MMDrawerController_demo */,
+				BA22B90C1C3AB05F00D69597 /* MMDrawerController_demoTests */,
+				BA22B9171C3AB05F00D69597 /* MMDrawerController_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA22B8F21C3AB05F00D69597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA22B9071C3AB05F00D69597 /* LaunchScreen.storyboard in Resources */,
+				BA22B9041C3AB05F00D69597 /* Assets.xcassets in Resources */,
+				BA22B9021C3AB05F00D69597 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA22B90B1C3AB05F00D69597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA22B9161C3AB05F00D69597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA22B8F01C3AB05F00D69597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA22B8FF1C3AB05F00D69597 /* ViewController.m in Sources */,
+				BA22B8FC1C3AB05F00D69597 /* AppDelegate.m in Sources */,
+				BA22B8F91C3AB05F00D69597 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA22B9091C3AB05F00D69597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA22B9121C3AB05F00D69597 /* MMDrawerController_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA22B9141C3AB05F00D69597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA22B91D1C3AB05F00D69597 /* MMDrawerController_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA22B90F1C3AB05F00D69597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA22B8F31C3AB05F00D69597 /* MMDrawerController_demo */;
+			targetProxy = BA22B90E1C3AB05F00D69597 /* PBXContainerItemProxy */;
+		};
+		BA22B91A1C3AB05F00D69597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA22B8F31C3AB05F00D69597 /* MMDrawerController_demo */;
+			targetProxy = BA22B9191C3AB05F00D69597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA22B9001C3AB05F00D69597 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA22B9011C3AB05F00D69597 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA22B9051C3AB05F00D69597 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA22B9061C3AB05F00D69597 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA22B91F1C3AB05F00D69597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA22B9201C3AB05F00D69597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA22B9221C3AB05F00D69597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMDrawerController_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shiwensong.MMDrawerController-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA22B9231C3AB05F00D69597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMDrawerController_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shiwensong.MMDrawerController-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA22B9251C3AB05F00D69597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MMDrawerController_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shiwensong.MMDrawerController-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMDrawerController_demo.app/MMDrawerController_demo";
+			};
+			name = Debug;
+		};
+		BA22B9261C3AB05F00D69597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MMDrawerController_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shiwensong.MMDrawerController-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMDrawerController_demo.app/MMDrawerController_demo";
+			};
+			name = Release;
+		};
+		BA22B9281C3AB05F00D69597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MMDrawerController_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shiwensong.MMDrawerController-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMDrawerController_demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BA22B9291C3AB05F00D69597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MMDrawerController_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shiwensong.MMDrawerController-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMDrawerController_demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA22B8EF1C3AB05F00D69597 /* Build configuration list for PBXProject "MMDrawerController_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA22B91F1C3AB05F00D69597 /* Debug */,
+				BA22B9201C3AB05F00D69597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA22B9211C3AB05F00D69597 /* Build configuration list for PBXNativeTarget "MMDrawerController_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA22B9221C3AB05F00D69597 /* Debug */,
+				BA22B9231C3AB05F00D69597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA22B9241C3AB05F00D69597 /* Build configuration list for PBXNativeTarget "MMDrawerController_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA22B9251C3AB05F00D69597 /* Debug */,
+				BA22B9261C3AB05F00D69597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA22B9271C3AB05F00D69597 /* Build configuration list for PBXNativeTarget "MMDrawerController_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA22B9281C3AB05F00D69597 /* Debug */,
+				BA22B9291C3AB05F00D69597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA22B8EC1C3AB05F00D69597 /* Project object */;
+}
